@@ -1,0 +1,27 @@
+.table-users {
+  width: 100%;
+}
+
+.table-users__cell {
+  border: 1px solid var(--white-color);
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-users__row th {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+.table-users__row:nth-child(even) {
+  background-color: var(--tropical-blue-color);
+}
+
+.table-users__row:nth-child(odd) {
+  background-color: var(--wheathered-blue-color);
+}
+
+.table-users__thumbnail {
+  border-radius: 50%;
+}

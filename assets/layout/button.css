@@ -1,0 +1,17 @@
+.submit-table{
+  background-color: var(--tropical-blue-color);
+  border-color: var(--blue-color);
+  border-radius: 15px;
+  color:var(--black-color);
+  cursor: pointer;
+  display: flex;
+  font-family: sans-serif;
+  margin: 20px auto;
+  padding: 10px;
+  position: relative;
+}
+
+.submit-table:hover{
+  background-color: var(--blue-color);
+}
+
